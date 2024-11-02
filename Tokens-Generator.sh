@@ -1,8 +1,8 @@
 #!/bin/bash
 
-while true; do 
+while true; do
     token=$(mkpasswd hi)
-    echo "a" >> blank.txt
+    echo "$token" >> blank.txt
     git add .
     git commit -m "$token"
     git push origin main
