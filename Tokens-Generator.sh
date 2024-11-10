@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while true; do
-    token=$(mkpasswd hi)
+    token=$(mkpasswd ciscoanass)
     echo "$token" >> Encrypted-Tokens.txt
     git add .
     git commit -m "$token"
