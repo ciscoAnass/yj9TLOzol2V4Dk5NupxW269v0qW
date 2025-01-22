@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while true; do
+for i in {1..2}; do
     token=$(mkpasswd ciscoanass)
     echo "$token" >> Encrypted-Tokens.txt
     git add .
